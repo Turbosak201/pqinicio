@@ -16,6 +16,13 @@
     .subheader{
         text-align: justify;
     }
+
+    .subheader .menu a{
+        
+        font-size: 1.9vh;
+            
+    }
+
     #pagina1{
         display: flex;
         flex-direction: column;
@@ -47,10 +54,6 @@
         height: auto;
         max-height: none;
         margin-right: 0;
-    }
-    
-    .footer{
-        display:none;
     }
 
     .subheader1
@@ -209,9 +212,8 @@
         width: 60vw;
     }
 
-    #footerEnd{
+    #footer{
         margin-top: 50px;
-        background-color: white;
         display: flex;
     font-family: 'Alegreya', serif;
     font-size: 25px;
@@ -261,6 +263,12 @@
     .subheader{
         text-align: justify;
     }
+
+    .subheader .menu a{
+        
+        font-size: 2vh;
+            
+    }
     #pagina1{
         display: flex;
         flex-direction: column;
@@ -292,10 +300,6 @@
         height: auto;
         max-height: none;
         margin-right: 0;
-    }
-    
-    .footer{
-        display:none;
     }
 
     .subheader1
@@ -452,7 +456,7 @@
         width: 60vw;
     }
 
-    #footerEnd{
+    #footer{
         margin-top: 50px;
         background-color: white;
         display: flex;
@@ -492,6 +496,14 @@
 
     .subheader{
         text-align: justify;
+        font-size: 2vh;
+            
+    }
+
+    .subheader .menu a{
+        
+        font-size: 2.5vh;
+            
     }
     #pagina1{
         display: flex;
@@ -526,13 +538,10 @@
         margin-right: 0;
     }
     
-    .footer{
-        display:none;
-    }
 
     .subheader1
     {
-        font-size: 20px;
+        font-size: 3vh;
         padding-left: 15px;
 
     }
@@ -667,7 +676,7 @@
         width: 60vw;
     }
 
-    #footerEnd{
+    #footer{
         margin-top: 50px;
         background-color: white;
         display: flex;
@@ -686,6 +695,10 @@
 
     .subheader{
         text-align: justify;
+        
+    }
+    .menu a{
+    font-size: 3vh;
     }
 
     .subheader1 a{
@@ -731,10 +744,6 @@
         margin-right: 0;
     }
     
-    .footer{
-        display:none;
-    }
-
     .subheader1
     {
         font-size: 30px;
@@ -863,7 +872,7 @@
         width: 60vw;
     }
 
-    #footerEnd{
+    #footer{
         margin-top: 50px;
         background-color: white;
         display: flex;
@@ -871,6 +880,8 @@
     font-size: 25px;
     text-align: center;
     }
+
+    
 
 }
 
@@ -917,9 +928,6 @@
         margin-right: 0;
     }
     
-    .footer{
-        display:none;
-    }
 
     .subheader1
     {
@@ -1048,7 +1056,7 @@
         width: 60vw;
     }
 
-    #footerEnd{
+    #footer{
         margin-top: 50px;
         background-color: white;
         display: flex;
@@ -1104,9 +1112,7 @@
         margin-right: 0;
     }
     
-    .footer{
-        display:none;
-    }
+
     .subheader1
     {
         font-size: 30px;
@@ -1234,7 +1240,7 @@
         width: 60vw;
     }
 
-    #footerEnd{
+    #footer{
         margin-top: 50px;
         background-color: white;
         display: flex;
