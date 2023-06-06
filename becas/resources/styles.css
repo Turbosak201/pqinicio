@@ -1,0 +1,294 @@
+html{
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+
+
+
+body{
+    margin: 0;
+}
+#pagina1{
+    display: flex; flex-direction: row; align-items: center;
+}
+
+section{
+    height: 100vh;
+}
+
+#bufalito{
+    margin-right: 30px;
+    max-height: 40vw; 
+    width: auto;
+}
+
+#bufalito:hover{
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    
+}
+
+#texto11{
+    margin-top: 50px; color: white; font-size: 25px; font-family: 'TT Commons', sans-serif;
+}
+
+.encabezado{
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subheader{
+    background-color: #FFEB5B;
+    height: 70px;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+
+    
+    
+}
+
+.subheader1{
+    background-color: #FFEB5B;
+    height: 70px;
+    font-family: 'Cardo', serif;
+
+display: grid;
+align-items: center;
+font-size: 30px;
+font-weight: 600;
+width: 100vw;
+
+}
+.subheader1 b{
+    grid-column: 1;
+    margin-left: 3vw;
+    
+}
+
+#pagina2 h1{
+    color: white;
+    font-size: 10vh;
+    margin-top: 0px;
+    overflow: hidden;
+    text-align: center;
+    
+
+}
+
+
+
+.subheader1 a{
+    grid-column: 2;
+    justify-self: right;
+    margin-right: 3vw;
+}
+
+#pagina2{
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+#pagina3{
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+#pagina4{
+    justify-content: center; align-items: center; display: flex;
+}
+
+#pagina5{
+    display: flex; align-items: center; justify-content: center;
+}
+
+.menu{
+    font-family: 'Alegreya', serif;
+    font-size: 25px;
+    justify-content: right;
+    align-items: center;
+    padding-right: 15px;
+
+}
+#div11{
+text-align: center; padding-left: 5%; display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;
+}
+
+.pagina{
+    background-color: #183869;
+    height: 75vh;
+    /*overflow: scroll;*/
+}
+
+#texto1{
+    font-size: 6vh;
+    font-weight: 900;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.beca{
+    
+    background-color: #aeaecd;
+    border-radius: 40px;
+    height: 130px;
+    width: 300px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+    
+}
+.beca a {
+    font-size: 4vh;
+    text-align: center;
+    display: flex;
+}
+
+.lineabeca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+#pagina4pres{
+    display: flex; flex-direction: row;
+}
+
+
+
+.nombre{
+    color: #FFEB5B;
+    font-size: 45px;
+}
+
+.titulo-linea{
+    display: flex;
+    color: #FFEB5B;
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 5px solid white;
+    width: 300px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+dia{
+    border: 2px solid black;
+}
+
+
+.tabla{
+    background-color: white;
+    display:grid;
+    
+    font-size: 20px;
+}
+#dia1{
+    grid-column: 1;
+grid-row: 1;
+}
+#dia2{
+    grid-column: 2;
+grid-row: 1;
+}
+#dia3{
+    grid-column: 3;
+grid-row: 1;
+}
+#dia4{
+    grid-column: 4;
+grid-row: 1;
+}
+#dia5{
+    grid-column: 5;
+grid-row: 1;
+}
+
+#hora1{
+    grid-column: 1;
+    grid-row: 2;
+}
+#hora2{
+    grid-column: 2;
+    grid-row: 2;
+}
+#hora3{
+    grid-column: 3;
+    grid-row: 2;
+}
+#hora4{
+    grid-column: 4;
+    grid-row: 2;
+}
+#hora5{
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.footer{
+    display: flex;
+    font-family: 'Alegreya', serif;
+    font-size: 25px;
+    justify-content: center;
+}
+
+button{
+    width: 15vw;
+  background-color: #FBEA0C;
+  border-radius: 50px;
+  color: black;
+  padding: 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    background-color: #948a02;
+    box-shadow: 0 12px rgb(155, 144, 0) rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+#qr{
+    height: 200px;
+    width: auto;
+    position:relative;
+    top: 200px;
+}
+
+#doctoras{
+   display: flex; flex-direction: row; justify-content: center;
+}
+
+#dr1{
+    margin-right: 200px;
+}
+
+#emer{
+    height: 200px; width: 200px;  position: relative; top: 100px; left: 100px; margin-bottom: 20px;
+}
+
+#texto61{
+    display: flex; flex-direction: column; justify-content: center; align-items: center; width: 1200px;
+}
+
+as{
+    font-size: 22px; border-top: 5px solid #FFEB5B;  margin: 20px; text-align: center;
+}
+
