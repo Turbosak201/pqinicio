@@ -92,7 +92,6 @@
         margin-top: 10%;
         flex-direction: column;
         overflow-y: scroll;
-        width: 80vw;
         
     }
 
@@ -348,7 +347,6 @@
         margin-top: 10%;
         flex-direction: column;
         overflow-y: scroll;
-        width: 80vw;
     }
 
     #pagina3{
@@ -582,7 +580,7 @@
         margin-top: 10%;
         flex-direction: column;
         overflow-y: scroll;
-        width: 80vw;
+        width: 100vw;
     }
 
     #pagina3{
@@ -793,7 +791,7 @@
         flex-direction: column;
         height: auto;
         overflow-y: scroll;
-        width: 80vw;
+
     }
 
     #pagina3{
@@ -971,7 +969,6 @@
         flex-direction: column;
         height: auto;
         overflow-y: scroll;
-        width: 80vw;
     }
 
     #pagina3{
@@ -1148,8 +1145,7 @@
         flex-direction: column;
         height: auto;
         overflow-y: scroll;
-        width: 80vw;
-    }
+        }
 
     #pagina3{
         flex-direction: column;
